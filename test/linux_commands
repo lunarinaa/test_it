@@ -1,0 +1,67 @@
+File and Directory Operations:
+
+ls: List files and directories in the current directory.
+cd: Change the current directory.
+pwd: Print the current working directory.
+mkdir: Create a new directory.
+touch: Create an empty file.
+rm: Remove files or directories.
+cp: Copy files or directories.
+mv: Move or rename files or directories.
+File Viewing and Editing:
+
+cat: Display the contents of a file.
+more or less: View text files one page at a time.
+nano or vim: Text editors for creating and editing files.
+head and tail: Display the beginning or end of a file.
+File Permissions:
+
+chmod: Change file permissions.
+chown: Change file ownership.
+System Information:
+
+uname: Display system information.
+df: Show disk space usage.
+free: Display memory usage.
+top or htop: Monitor system processes.
+Package Management (on package-based systems like Debian and Ubuntu):
+
+apt-get or apt: Install, update, and manage software packages.
+Package Management (on Red Hat-based systems like CentOS and Fedora):
+
+yum: Install, update, and manage software packages.
+User and Group Management:
+
+useradd: Create a new user.
+passwd: Change user password.
+groupadd: Create a new group.
+usermod: Modify user properties.
+Networking:
+
+ifconfig or ip: Configure network interfaces.
+ping: Test network connectivity.
+netstat: Display network statistics.
+ssh: Securely access remote systems.
+File Compression and Archiving:
+
+tar: Create and extract tar archives.
+gzip and gunzip: Compress and decompress files using gzip.
+zip and unzip: Compress and decompress files using zip.
+Process Management:
+
+ps: List running processes.
+kill: Terminate processes.
+killall: Terminate processes by name.
+bg and fg: Manage background and foreground jobs.
+System Shutdown and Reboot:
+
+shutdown: Shutdown or restart the system.
+File Transfer:
+
+scp: Securely copy files between hosts over SSH.
+rsync: Synchronize files and directories between systems.
+Text Processing:
+
+grep: Search text using patterns.
+sed: Stream editor for text manipulation.
+awk: Text processing language.
