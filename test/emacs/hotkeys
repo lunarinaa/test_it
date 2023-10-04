@@ -1,0 +1,7 @@
+open file C-x C-f
+cut line C-k
+paste C-y or M-y
+search C-s
+undo C-/ or C-x or C-_
+quit C-x C-c
+force quit C-x C-z

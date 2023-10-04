@@ -1,0 +1,43 @@
+Basic Navigation:
+
+Move cursor forward: C-f (Control key + the letter "f").
+Move cursor backward: C-b (Control key + the letter "b").
+Move to the beginning of the line: C-a.
+Move to the end of the line: C-e.
+Move to the beginning of the buffer: M-< (Alt key + the less-than symbol).
+Move to the end of the buffer: M-> (Alt key + the greater-than symbol).
+Move to a specific line: M-g g followed by the line number.
+Text Manipulation:
+
+Cut (kill) text: C-k.
+Copy (kill-ring-save) text: M-w (Alt key + the letter "w").
+Paste (yank) text: C-y.
+Undo: C-/, C-x u, or C-_.
+Redo: M-x undo (followed by a negative argument, e.g., -1).
+File Operations:
+
+Open a file: C-x C-f.
+Save the current file: C-x C-s.
+Save all open files: C-x s.
+Close the current buffer: C-x k.
+Search and Replace:
+
+Search forward: C-s.
+Search backward: C-r.
+Incremental search: C-s (forward) or C-r (backward) and then type the search term.
+Replace: M-% (Alt key + the percent symbol).
+Buffer Management:
+
+Create a new buffer: C-x b.
+Switch to another buffer: C-x b or C-x C-b.
+Close a buffer: C-x k.
+Window Management:
+
+Split window horizontally: C-x 2.
+Split window vertically: C-x 3.
+Switch to the next window: C-x o.
+Miscellaneous:
+
+Run a command: M-x (Alt key + the letter "x").
+Cancel an ongoing command: C-g.
+Get help: C-h.
