@@ -1,0 +1,10 @@
+insert before the cursor-  i
+delete (cut) current line- dd
+paste - p or P
+undo - u
+quit- :q!
+move cursor to the start of line - 0
+move cursor to the end of line - $
+save :w
+save and quit :wq
+exit insert mode ESC

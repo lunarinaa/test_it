@@ -1,0 +1,44 @@
+Basic Navigation:
+
+Move cursor left: h
+Move cursor right: l
+Move cursor up: k
+Move cursor down: j
+Move to the start of the line: 0
+Move to the end of the line: $
+Move to the beginning of the file: gg
+Move to the end of the file: G
+Move to a specific line number: :{line number} (e.g., :10 moves to line 10)
+Text Editing:
+
+Insert text before the cursor: i
+Insert text at the beginning of the line: I
+Append text after the cursor: a
+Append text at the end of the line: A
+Open a new line below the current line: o
+Open a new line above the current line: O
+Delete the character under the cursor: x
+Delete the current line: dd
+Cut (yank) the current line: dd
+Copy (yank) the current line: yy
+Paste (put) the text from the buffer below the cursor: p
+Paste (put) the text from the buffer above the cursor: P
+Undo the last change: u
+Redo the last undone change: Ctrl-r
+Search and Replace:
+
+Search forward for a pattern: / followed by your search pattern, then press Enter
+Search backward for a pattern: ? followed by your search pattern, then press Enter
+Repeat the last search forward: /
+Repeat the last search backward: ?
+Replace text: :s/{search}/{replace}/ (e.g., :s/foo/bar/ replaces "foo" with "bar" on the current line)
+Saving and Quitting:
+
+Save changes to the file: :w
+Quit without saving changes: :q!
+Save changes and quit: :wq or :x
+Save changes and quit (if changes were made): :wq
+Other Commands:
+
+Enter command-line mode: :
+Cancel the current mode or operation: Esc
