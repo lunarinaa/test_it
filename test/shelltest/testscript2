@@ -1,0 +1,9 @@
+#!/bin/bash
+#read command
+echo "enter name :"
+read name
+echo "entered name : $name"
+
+read -p 'username :' user_var
+echo "username : $user_var"
+

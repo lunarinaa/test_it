@@ -1,0 +1,13 @@
+#!/bin/bash
+# this is a comment
+echo "Hello World" #another comment
+
+echo $BASH #system variable
+echo $BASH_VERSION
+echo $HOME
+echo $PWD
+echo $PATH
+
+#user variables
+name=Aydan
+echo The name is $name

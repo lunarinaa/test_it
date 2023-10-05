@@ -1,0 +1,15 @@
+#!/bin/bash
+# this is a comment
+echo "Hello World" #another comment
+
+echo shell name is $BASH #system variable
+echo shell version is $BASH_VERSION
+echo home directory is $HOME
+echo current working directory is $PWD
+echo path is $PATH
+
+#user variables
+name=Aydan
+echo The name is $name
+val10=10
+echo 5+5 equals $val10
